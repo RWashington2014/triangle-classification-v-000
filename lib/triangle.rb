@@ -18,7 +18,7 @@ class Triangle
         :isosceles
       end
     end
-    
+
     def is_triangle?(a,b,c)
       sorted = [a,b,c].sort
       greatest_side = sorted.pop
