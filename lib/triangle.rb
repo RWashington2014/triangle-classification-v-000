@@ -15,11 +15,8 @@ class Triangle
       else
         :isosceles
       end
-
-      end
-
     end
-end
+end # => End Triangle class
 
 class TriangleError < StandardError
 
